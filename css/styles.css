@@ -4,6 +4,19 @@
     --bg-light: #f28016;
 }
 
+.banner-content ul {
+    padding: 0;
+}
+
+.banner-content li {
+    list-style: none;
+    padding: 0;
+}
+
+.banner-content li i {
+    padding-right: 0.5rem;
+}
+
 .bg-primary,
 .btn-primary {
     background-color: var(--primary-bg)!important;
@@ -15,6 +28,7 @@
 
 body {
     padding-top: 82px;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 @media (min-width: 992px) {
@@ -25,7 +39,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-weight: bold;
+    font-weight: 500;
     color: var(--primary-bg);
 }
 
@@ -87,6 +101,7 @@ img {
 
 .banner-content h1 {
     font-size: 2.5rem;
+    font-weight: 500;
 }
 
 .banner-content li {
